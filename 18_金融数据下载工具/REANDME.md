@@ -46,11 +46,7 @@
 
 
 
-**1. 打开压缩包，运行“Tushare_to_Excel.xlsm”**
-
-工具下载地址：
-
-链接：https://share.weiyun.com/53RQdp8 密码：9ib836
+**1. 下载文件后，运行“Tushare_to_Excel.xlsm”**
 
 提示：打开excel之后弹出的安全警告一定要选择“启用内容”或者“启用宏”
 
