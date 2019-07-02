@@ -8,7 +8,7 @@
 
 
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\1.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/1.png)
 
 
 
@@ -24,7 +24,7 @@
 >
 > Tushare 微信公众号：挖地兔
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\0.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/0.png))
 
 
 
@@ -50,9 +50,9 @@
 
 提示：打开excel之后弹出的安全警告一定要选择“启用内容”或者“启用宏”
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\3.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/3.png)
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\2.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/2.png)
 
 
 
@@ -64,33 +64,33 @@
 
 注册成功之后，进入个人主页—接口TOKEN，复制token至excel表格G1单元格。
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\4.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/4.png)
 
  
 
 **3. 双击三级目录具体项目，进入对应的数据接口**
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\5.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/5.png)
 
 **4. 将对应的输入参数和输出参数填在E列中，注意格式要求**
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\6.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/6.png)
 
 **5. 依次单击“查询数据”，“预览数据”，“下载数据”按钮**
 
 点击查询数据之后，等待几秒钟，会弹出提示，如果提示表格已经保存好了，就可以预览数据，再选择下载数据；如果提示出现错误，则需要检查参数的填写是否符合规范，更详细的参数文档和示例文件可以进入官网查看。
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\7.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/7.png)
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\8.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/8.png)
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\9.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/9.png)
 
 PS：工具中包含了自己制作的程序，杀毒软件可能会提示发现可疑程序，要允许程序运行。
 
 **6. 打开本工作簿路径下output文件夹，查看下载成功的数据表**
 
-![img](D:\github_nigo81\tools-for-auditor\18_金融数据下载工具\photo\10.png)
+![img](https://github.com/nigo81/tools-for-auditor/blob/master/18_金融数据下载工具/photo/10.png)
 
 关注微信公众号【15Seconds】，在后台回复【Tushare】可获取VBA工程密码。
 
