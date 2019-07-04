@@ -4,7 +4,7 @@
 
 公众号 | 15Seconds
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/1)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/1.png)
 
 昨天上午，百度首席执行官李彦宏通过一场“宏彦获水”霸占了热搜的榜单，网友调侃说是“2块钱预算的热搜”。
 
@@ -23,27 +23,27 @@
 
 >链接：https://share.weiyun.com/5hayjVs 密码：vhii8f
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/2)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/2.png)
 
 2.输入需要合成的本文，中文或者英文
 
 3.调整适合的音调、语速、音量和发音人后，单击按钮开始合成
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/3)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/3.png)
 
 4.工具所在路径下自动生成的MP3文件，即为最终的合成文件
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/5)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/5.png)
 
 5.值得特别提出的是“支持多音字标注”的功能
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/4)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/4.png)
 
 中文多音字可通过标注拼音、音调自行定义发音，例如“轻舟已过万重（chong2）山”、“脑筋急转（zhuan3）弯”
 
 >百度AI语音合成    https://ai.baidu.com/tech/speech/tts
 
-![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/6)
+![image](https://github.com/nigo81/tools-for-auditor/tree/master/19_%E7%99%BE%E5%BA%A6AI%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%E5%B7%A5%E5%85%B7/photo/6.png)
 
 百度AI开放平台中有语音、图像、OCR、人脸与人体识别、视频、自然语言处理等多领域的开放技术，我这次尝试的只是语音技术中的语音合成功能，其他功能大家也可以去挖掘。
 
