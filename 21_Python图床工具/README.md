@@ -41,7 +41,7 @@ Q3: 把图片转成外链万无一失吗？
 三、“硬核”区域
 
 1.导入依赖环境
-
+~~~
 import datetime
 import json
 import os
@@ -51,9 +51,9 @@ import prettytable as pt
 import pyperclip
 import requests
 from PIL import Image, ImageGrab
-
+~~~
 2.利用PrettyTable美化程序的欢迎界面
-
+~~~
 def WelCome():
     '''打印程序签名'''
     tb = pt.PrettyTable()
@@ -66,9 +66,9 @@ def WelCome():
     tb.add_row(['使用方法', '上传成功后 外链将直接拷贝到剪贴板中'])
     tb.add_row(['', '截图和外链文本将会保存在TEMP文件夹中'])
     print(tb)
-
+~~~
 3.将剪切板中的图片保存至本地
-
+~~~
 def clipboard_save(pic_path):
     '''将剪切板中的图片保存至本地'''
     pic = True
@@ -80,11 +80,11 @@ def clipboard_save(pic_path):
         print('2. 剪切板上未发现图片')
         pic = False
     return pic
-
+~~~
 4.将保存的图片上传至Sina服务器，并返回图片外链
 
 源码中提供了3中钟输出方式，可以直接输出为Markdown格式或者HTML <img>标签。
-
+~~~
 def Sina_upload(pic_path):
     '''将保存的图片上传至Sina服务器，并返回图片外链'''
     try:
@@ -100,8 +100,9 @@ def Sina_upload(pic_path):
     except Exception as err:
         print("3. 图片上传失败：{}".format(err))
         return None
+~~~
 5.通过pyperclip将图片外链储存至剪切板，同时保存在imgurl.txt中
-
+~~~
 def save_to_clipboard(img_url, txt_path):
     '''将图片外链储存至剪切板，同时保存在imgurl.txt中'''
     if img_url != None:
@@ -111,8 +112,9 @@ def save_to_clipboard(img_url, txt_path):
         f.write(img_url+'\n')
         f.close
         print('4. 外链已经保存并拷贝到剪贴板中')
+~~~
 6.创建储存图片和外链文本的本地文件夹，用于备份图片
-
+~~~
 def temp_path():
     '''创建储存图片和外链文本的本地文件夹'''
     now_path = os.path.abspath(os.curdir)
@@ -124,8 +126,9 @@ def temp_path():
     txt_path = now_path+r'\temp\imageUrl.txt'
     path = [pic_path, txt_path]
     return path
+~~~
 7.按键监控与主程序入口，最终封装为可执行文件
-
+~~~
 def main():
     '''按键监控与主体逻辑'''
     print('\n1. 截图后 按组合键 Ctrl+Shift+A 开始上传')
@@ -138,7 +141,7 @@ if __name__ == "__main__":
     WelCome()
     while True:
         main()
-
+~~~
 本公众号工具及源码会在Github上正式发布和后续更新。
 
 Github项目地址：https://github.com/nigo81/tools-for-auditor
