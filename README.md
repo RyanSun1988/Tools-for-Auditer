@@ -86,3 +86,5 @@ Excel+百度AI=？
 > 制作人：王文铖
 
 Python制作图床工具，截图即可获取图片外链，轻松编辑Markdown文档。
+
+包含Markdown、Anki、https三个版本。
