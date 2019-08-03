@@ -2,12 +2,13 @@
 # -*- coding: utf-8 -*-
 # Author: wwcheng
 import csv
+import logging
+import logging.handlers
 import os
 import random
 import time
 from urllib import request
-import logging
-import logging.handlers
+
 import prettytable as pt
 import requests
 from fake_useragent import UserAgent
@@ -77,7 +78,7 @@ class QiChaMao(object):
     def load_company(self):
         '''加载公司列表'''
         input_csv = self.nowpath+r'\company_input.csv'
-        reader = csv.reader(open(input_csv, 'r', encoding='utf-8-sig'))
+        reader = csv.reader(open(input_csv, 'r', encoding='gb2312'))
         
         self.company_list = [r[1] for r in reader]
         if len(self.company_list)==1:
@@ -125,6 +126,25 @@ class QiChaMao(object):
             self.logger.exception("正在记录发生的错误")
         self.info = [self.search_key, self.company_name, match]+info1+info2
 
+    def get_member(self):
+        pass
+        #成员姓名 html.xpath('//div[@class="art-member"]/ul/li/a/div/p[1]/text()')
+        #职位 html.xpath('//div[@class="art-member"]/ul/li/a/div/p[2]/text()')
+    
+    def get_share(self):
+        pass
+        #姓名 html.xpath('//ul[@class="list-gd"]/li/div/div[1]/em/text()')
+        #股东类型 html.xpath('//ul[@class="list-gd"]/li/div/div[1]/span/text()')
+        #持股比例 html.xpath('//ul[@class="list-gd"]/li/div/div[2]/p[1]/span/text()')
+        #认缴 html.xpath('//ul[@class="list-gd"]/li/div/div[2/p[1]/text()')
+        #实缴 html.xpath('//ul[@class="list-gd"]/li/div/div[2]/p[2]/text()')
+
+    def get_dwtz(self):
+        pass
+        #  post  https://www.qichamao.com/orgcompany/GetDWTZInfo
+        # oc_name: 暴风集团股份有限公司
+        # currpage: 2
+
     def Output_csv(self, content=''):
         '''输出文件'''
         output_path = self.nowpath + \
@@ -142,6 +162,7 @@ class QiChaMao(object):
                  '成立日期', '登记机关', '经营期限', '所属地区', '核准日期', '企业地址', '经营范围']
         self.Output_csv(title)
         for i in range(len(self.company_list)):
+        # for i in range(2):
             self.search_key = self.company_list[i]
             self.timestr = str(int(time.time() * 1000))
             self.logger.info('当前进度：{}/{} {}'.format(i+1, len(self.company_list),self.search_key))
