@@ -1,0 +1,478 @@
+16-56-2019 09:56:26 15Scends:INFO:请在60秒内用手机完成微信扫码，超时后会视同不扫码继续运行
+16-56-2019 09:56:26 15Scends:INFO:可以不使用对应手机号的微信扫码，但是将无法获得电子存根信息
+16-56-2019 09:56:26 15Scends:INFO:成功扫码之后可以将二维码图片关闭
+16-56-2019 09:56:26 15Scends:INFO:正在打开微信扫码界面,请耐心等待30秒左右···
+
+16-56-2019 09:56:56 15Scends:INFO:当前进度：1/13 ，正在查询的单号为 [233679804279]
+16-56-2019 09:56:57 15Scends:INFO:单号 [233679804279] 所属快递公司为 [shunfeng]
+16-56-2019 09:56:57 15Scends:INFO:正在输入单号进行查询
+16-57-2019 09:57:02 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-57-2019 09:57:04 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-57-2019 09:57:17 15Scends:INFO:verify_ok = True
+16-57-2019 09:57:19 15Scends:INFO:获取物流节点信息和截图
+16-57-2019 09:57:21 15Scends:INFO:已签收 2019-07-23 18:43 已签收,感谢使用顺丰,期待再次为您服务
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-23 08:09 快件到达顺丰合作点【李莎便利店】,请携带有效证件前往自取
+16-57-2019 09:57:21 15Scends:INFO:派送中 2019-07-23 07:47 快件交给郭志友，正在派送途中（联系电话：13177890792）
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-23 07:00 快件到达 【财大速运营业点】
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-23 06:10 快件已发车
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-23 06:10 快件在【南昌昌北集散中心2】已装车,准备发往下一站
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-23 03:07 快件到达 【南昌昌北集散中心2】
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 18:26 快件已发车
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 17:56 快件在【杭州总集散中心】已装车,准备发往下一站
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 17:09 快件到达 【杭州总集散中心】
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 16:13 快件已发车
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 14:53 快件在【杭州下沙中转场】已装车,准备发往下一站
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 14:26 快件到达 【杭州下沙中转场】
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 13:03 快件已发车
+16-57-2019 09:57:21 15Scends:INFO:运送中 2019-07-22 13:00 快件在【杭州余杭南湖丽景营业部】已装车,准备发往下一站
+16-57-2019 09:57:21 15Scends:INFO:已取件 2019-07-22 11:27 顺丰速运 已收取快件
+16-57-2019 09:57:22 15Scends:INFO:正在拼接物流节点截图
+16-57-2019 09:57:22 15Scends:INFO:正在获取电子存根信息和截图
+16-57-2019 09:57:26 15Scends:INFO:目的地：
+16-57-2019 09:57:26 15Scends:INFO:791GA
+16-57-2019 09:57:26 15Scends:INFO:寄件方：杭州万源
+16-57-2019 09:57:26 15Scends:INFO:杭州万源 187****9383
+16-57-2019 09:57:26 15Scends:INFO:浙江省杭州市余杭区请当面验货，如外包装变形或破损请不要签收并及时与我们联系！！！
+16-57-2019 09:57:26 15Scends:INFO:收件方：彭鑫威
+16-57-2019 09:57:26 15Scends:INFO:彭鑫威 158****9403
+16-57-2019 09:57:26 15Scends:INFO:江西省南昌市江西省南昌市经济技术开发区江西财经大学蛟桥北校区学生宿舍15栋
+16-57-2019 09:57:26 15Scends:INFO:托寄物：联想原装710s-13小新air13pro总成屏幕LQ133 产品类型： 顺丰标快
+16-57-2019 09:57:26 15Scends:INFO:数量：1 付款方式： 寄付月结
+16-57-2019 09:57:26 15Scends:INFO:实际重量： 1.0 件数： 1.0
+16-57-2019 09:57:26 15Scends:INFO:计费重量： 1.0
+16-57-2019 09:57:26 15Scends:INFO:备注：
+16-57-2019 09:57:26 15Scends:INFO:收件员：40044724 收件时间：2019-07-22 12:28:14
+16-57-2019 09:57:29 15Scends:INFO:当前进度：2/13 ，正在查询的单号为 [369433311633]
+16-57-2019 09:57:29 15Scends:INFO:单号 [369433311633] 所属快递公司为 [shunfeng]
+16-57-2019 09:57:31 15Scends:INFO:正在输入单号进行查询
+16-57-2019 09:57:36 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-57-2019 09:57:38 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-57-2019 09:57:50 15Scends:INFO:verify_ok = True
+16-57-2019 09:57:51 15Scends:INFO:获取物流节点信息和截图
+16-57-2019 09:57:53 15Scends:INFO:没有查询到相关物流信息
+16-57-2019 09:57:53 15Scends:INFO:正在获取电子存根信息和截图
+16-57-2019 09:57:53 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-57-2019 09:57:53 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-57-2019 09:57:55 15Scends:INFO:当前进度：3/13 ，正在查询的单号为 [368657929782]
+16-57-2019 09:57:55 15Scends:INFO:单号 [368657929782] 所属快递公司为 [shunfeng]
+16-57-2019 09:57:57 15Scends:INFO:正在输入单号进行查询
+16-58-2019 09:58:01 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-58-2019 09:58:03 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-58-2019 09:58:16 15Scends:INFO:verify_ok = True
+16-58-2019 09:58:17 15Scends:INFO:获取物流节点信息和截图
+16-58-2019 09:58:21 15Scends:INFO:已签收 2019-07-14 18:09 已签收,感谢使用顺丰,期待再次为您服务
+16-58-2019 09:58:21 15Scends:INFO:派送中 2019-07-14 17:28 快件交给王超，正在派送途中（联系电话：13699177849）
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 16:34 快件到达 【庞各庄速运营业点】
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 14:38 快件已发车
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 14:07 快件在【北京顺义集散中心】已装车,准备发往下一站
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 11:59 快件到达 【北京顺义集散中心】
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 11:44 快件已发车
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 11:39 快件在【北京国航集散中心】已装车,准备发往下一站
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 11:39 快件到达 【北京国航集散中心】
+16-58-2019 09:58:21 15Scends:INFO:运送中 2019-07-14 01:34 快件在【长沙星沙集散中心】已装车,准备发往下一站
+16-58-2019 09:58:21 15Scends:INFO:已取件 2019-07-13 15:46 顺丰速运 已收取快件
+16-58-2019 09:58:22 15Scends:INFO:正在拼接物流节点截图
+16-58-2019 09:58:22 15Scends:INFO:正在获取电子存根信息和截图
+16-58-2019 09:58:22 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-58-2019 09:58:22 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-58-2019 09:58:23 15Scends:INFO:当前进度：4/13 ，正在查询的单号为 [804623382935349595]
+16-58-2019 09:58:23 15Scends:INFO:单号 [804623382935349595] 所属快递公司为 [yuantong]
+16-58-2019 09:58:27 15Scends:INFO:正在获取物流节点详细信息
+16-58-2019 09:58:27 15Scends:INFO:2019.03.05 12:14 星期二   客户 签收人 :超市 已签收 感谢使用圆通速递，期待再次为您服务
+16-58-2019 09:58:27 15Scends:INFO:2019.03.05 09:06  星期二   【黑龙江省哈尔滨市依兰县公司】 派件人 :马志波 派件中 派件员电话18521128386
+16-58-2019 09:58:27 15Scends:INFO:2019.03.04 21:54   【黑龙江省佳木斯市】 已发出 下一站 【黑龙江省哈尔滨市依兰县公司】
+16-58-2019 09:58:27 15Scends:INFO:2019.03.04 08:06   【哈尔滨转运中心】 已发出 下一站 【黑龙江省佳木斯市公司】
+16-58-2019 09:58:27 15Scends:INFO:2019.03.04 08:00  星期一   【哈尔滨转运中心】 已收入
+16-58-2019 09:58:27 15Scends:INFO:2019.03.02 03:13   【揭阳转运中心】 已发出 下一站 【哈尔滨转运中心】
+16-58-2019 09:58:27 15Scends:INFO:2019.03.02 03:03  星期六   【揭阳转运中心】 已收入
+16-58-2019 09:58:27 15Scends:INFO:2019.03.01 22:20   【广东省汕头市潮南区成田】 已发出 下一站 【揭阳转运中心】
+16-58-2019 09:58:27 15Scends:INFO:2019.03.01 21:22  星期五   【广东省汕头市潮南区成田公司】 已打包
+16-58-2019 09:58:27 15Scends:INFO:正在获取物流节点截图
+16-58-2019 09:58:29 15Scends:INFO:物流节点截图已保存
+16-58-2019 09:58:29 15Scends:INFO:当前进度：5/13 ，正在查询的单号为 [SF1002139455289]
+16-58-2019 09:58:29 15Scends:INFO:单号 [SF1002139455289] 所属快递公司为 [shunfeng]
+16-58-2019 09:58:30 15Scends:INFO:正在输入单号进行查询
+16-58-2019 09:58:34 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-58-2019 09:58:35 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-58-2019 09:58:57 15Scends:INFO:verify_ok = False
+16-58-2019 09:58:58 15Scends:INFO:第 2 次尝试解析滑动验证码
+16-59-2019 09:59:00 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-59-2019 09:59:12 15Scends:INFO:verify_ok = True
+16-59-2019 09:59:13 15Scends:INFO:获取物流节点信息和截图
+16-59-2019 09:59:15 15Scends:INFO:已签收 2019-07-15 08:53 代签收(曹志平 ),感谢使用顺丰,期待再次为您服务
+16-59-2019 09:59:15 15Scends:INFO:派送中 2019-07-15 08:06 快件交给蒋田波，正在派送途中（联系电话：15886508081）
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-15 01:59 快件到达 【深圳坪山新区坪环街道营业部】
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-15 01:02 快件已发车
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-15 01:01 快件在【深圳五和集散中心】已装车,准备发往下一站
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 18:50 快件到达 【深圳五和集散中心】
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 16:40 快件已发车
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 16:26 快件在【广州新塘集散中心】已装车,准备发往下一站
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 15:26 快件到达 【广州新塘集散中心】
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 14:25 快件已发车
+16-59-2019 09:59:15 15Scends:INFO:运送中 2019-07-14 14:15 快件在【广州白云萧岗明珠北路营业部】已装车,准备发往下一站
+16-59-2019 09:59:15 15Scends:INFO:已取件 2019-07-14 11:15 顺丰速运 已收取快件
+16-59-2019 09:59:16 15Scends:INFO:正在拼接物流节点截图
+16-59-2019 09:59:16 15Scends:INFO:正在获取电子存根信息和截图
+16-59-2019 09:59:16 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-59-2019 09:59:16 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-59-2019 09:59:17 15Scends:INFO:当前进度：6/13 ，正在查询的单号为 [900711472634]
+16-59-2019 09:59:17 15Scends:INFO:单号 [900711472634] 所属快递公司为 [youshuwuliu]
+16-59-2019 09:59:21 15Scends:INFO:正在获取物流节点详细信息
+16-59-2019 09:59:21 15Scends:INFO:2019.07.30 19:37 星期二   快件已代收点签收
+16-59-2019 09:59:21 15Scends:INFO:2019.07.30 11:36   [颍上一部]的【黄桥韵达】正在派件, 电话：18096744610
+16-59-2019 09:59:21 15Scends:INFO:2019.07.30 09:57   快件未签收，原因是【非即日件/特殊区域，续送】
+16-59-2019 09:59:21 15Scends:INFO:2019.07.30 09:31  星期二   快件已到达[颍上一部],上一站是[阜阳分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.29 17:44   快件已由[阜阳分拨中心]发往[颍上一部]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.29 09:28   [阜阳分拨中心]【杨义阳】正在进行拆袋扫描
+16-59-2019 09:59:21 15Scends:INFO:2019.07.29 09:28   快件已到达[阜阳分拨中心],上一站是[合肥分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.29 08:54   快件已到达[阜阳分拨中心],上一站是[合肥分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.29 01:08  星期一   快件已由[合肥分拨中心]发往[阜阳分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 23:40   [合肥分拨中心]【田翠岩】正在进行装袋扫描
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 19:05   快件已到达[合肥分拨中心],上一站是[泉州分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 19:05   [合肥分拨中心]【田翠岩】正在进行拆袋扫描
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 19:03   快件已到达[合肥分拨中心],上一站是[泉州分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 03:26   快件已由[泉州分拨中心]发往[合肥分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.28 02:58  星期天   [泉州分拨中心]【陆春妮】正在进行装袋扫描
+16-59-2019 09:59:21 15Scends:INFO:2019.07.27 23:51   快件已到达[泉州分拨中心],上一站是[鲤城DQ]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.27 19:17   快件已由[晋江英林]发往[泉州分拨中心]
+16-59-2019 09:59:21 15Scends:INFO:2019.07.27 17:30  星期六   [晋江英林]【董洁】已收件
+16-59-2019 09:59:21 15Scends:INFO:正在获取物流节点截图
+16-59-2019 09:59:22 15Scends:INFO:物流节点截图已保存
+16-59-2019 09:59:22 15Scends:INFO:当前进度：7/13 ，正在查询的单号为 [283850627581]
+16-59-2019 09:59:22 15Scends:INFO:单号 [283850627581] 所属快递公司为 [shunfeng]
+16-59-2019 09:59:24 15Scends:INFO:正在输入单号进行查询
+16-59-2019 09:59:28 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-59-2019 09:59:30 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-59-2019 09:59:42 15Scends:INFO:verify_ok = True
+16-59-2019 09:59:44 15Scends:INFO:获取物流节点信息和截图
+16-59-2019 09:59:47 15Scends:INFO:已签收 2019-07-16 10:43 代签收(装备室 ),感谢使用顺丰,期待再次为您服务
+16-59-2019 09:59:47 15Scends:INFO:派送中 2019-07-16 08:43 快件交给高庆义，正在派送途中（联系电话：13522246802）
+16-59-2019 09:59:47 15Scends:INFO:派送中 2019-07-16 08:42 快件交给耿纪友，正在派送途中（联系电话：18001028394）
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 07:36 快件到达 【北京海淀科贸营业点】
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 05:58 快件已发车
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 02:05 快件在【北京南法信中转场】已装车,准备发往下一站
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 00:50 快件到达 【北京南法信中转场】
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 00:44 快件已发车
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-16 00:05 快件在【北京顺义集散中心】已装车,准备发往下一站
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-15 23:24 快件到达 【北京顺义集散中心】
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-15 06:06 快件已发车
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-15 04:56 快件在【西北枢纽分拨中心】已装车,准备发往下一站
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-15 03:43 快件到达 【西北枢纽分拨中心】
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-14 21:50 快件已发车
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-14 20:14 快件在【天水麦积集散点】已装车,准备发往下一站
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-14 20:10 快件到达 【天水麦积集散点】
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-14 17:41 快件已发车
+16-59-2019 09:59:47 15Scends:INFO:运送中 2019-07-14 17:11 快件在【陇南市成县支旗村营业点】已装车,准备发往下一站
+16-59-2019 09:59:47 15Scends:INFO:已取件 2019-07-14 11:54 顺丰速运 已收取快件
+16-59-2019 09:59:48 15Scends:INFO:正在拼接物流节点截图
+16-59-2019 09:59:48 15Scends:INFO:正在获取电子存根信息和截图
+16-59-2019 09:59:48 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-59-2019 09:59:48 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-59-2019 09:59:50 15Scends:INFO:当前进度：8/13 ，正在查询的单号为 [233441276116]
+16-59-2019 09:59:50 15Scends:INFO:单号 [233441276116] 所属快递公司为 [shunfeng]
+16-59-2019 09:59:51 15Scends:INFO:正在输入单号进行查询
+16-59-2019 09:59:53 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-59-2019 09:59:55 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-00-2019 10:00:16 15Scends:INFO:verify_ok = False
+16-00-2019 10:00:16 15Scends:INFO:第 2 次尝试解析滑动验证码
+16-00-2019 10:00:18 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-00-2019 10:00:31 15Scends:INFO:verify_ok = True
+16-00-2019 10:00:33 15Scends:INFO:获取物流节点信息和截图
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-16 14:13 [两河口支局]在 汉中市 已签收,本人签收 :王佳宇,投递员:张军:18329661822
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-15 15:57 【两河口支局】投递结果反馈-未妥投,备注(其他 ),投递员:张军:18329661822
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-15 10:32 到达【两河口支局】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-15 08:35 【两河口支局】安排投递,投递员:张军:18329661822
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-13 12:52 离开【略阳寄递】,下一站【两河口支局】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-13 12:30 到达【略阳寄递】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-13 12:03 离开【中国邮政集团公司汉中市略阳县寄递事业部】,下一站【略阳处理】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-13 09:01 汉中市 【中国邮政集团公司汉中市略阳县寄递事业部】已收件,揽投员:高丽霞13008462300
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 11:33 快件转寄【EMS】, 单号【9661052919944】,转寄的寄递信息为第三方信息方提供
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 11:33 快件已转寄
+16-00-2019 10:00:35 15Scends:INFO:派送中 2019-07-12 08:00 快件派送不成功（因无法满足客户派件需求），待进一步处理
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 07:54 快件到达 【汉中略阳陈家沟速运营业点】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 05:56 快件已发车
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 05:56 快件在【汉中汉台集散点】已装车,准备发往下一站
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-12 04:15 快件到达 【汉中汉台集散点】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 23:23 快件已发车
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 21:22 快件在【西安总集散中心】已装车,准备发往下一站
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 14:21 快件到达 【西安总集散中心】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 01:57 快件在【厦门总集散中心】已装车,准备发往下一站
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 01:24 快件到达 【厦门总集散中心】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-11 00:12 快件已发车
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-10 19:58 快件在【泉州晋江集散中心】已装车,准备发往下一站
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-10 18:57 快件到达 【泉州晋江集散中心】
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-10 17:32 快件已发车
+16-00-2019 10:00:35 15Scends:INFO:运送中 2019-07-10 15:33 快件在【泉州市大客户项目营业部】已装车,准备发往下一站
+16-00-2019 10:00:35 15Scends:INFO:已揽收 2019-07-10 15:28 顺丰速运 已收取快件
+16-00-2019 10:00:36 15Scends:INFO:正在拼接物流节点截图
+16-00-2019 10:00:36 15Scends:INFO:正在获取电子存根信息和截图
+16-00-2019 10:00:36 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-00-2019 10:00:36 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-00-2019 10:00:38 15Scends:INFO:当前进度：9/13 ，正在查询的单号为 [747193990676]
+16-00-2019 10:00:38 15Scends:INFO:单号 [747193990676] 所属快递公司为 [shunfeng]
+16-00-2019 10:00:40 15Scends:INFO:正在输入单号进行查询
+16-00-2019 10:00:45 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-00-2019 10:00:46 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-00-2019 10:00:58 15Scends:INFO:verify_ok = True
+16-01-2019 10:01:00 15Scends:INFO:获取物流节点信息和截图
+16-01-2019 10:01:02 15Scends:INFO:已签收 2019-07-25 18:11 已签收,感谢使用顺丰,期待再次为您服务
+16-01-2019 10:01:02 15Scends:INFO:派送中 2019-07-25 17:50 快件交给张德，正在派送途中（联系电话：15056886382）
+16-01-2019 10:01:02 15Scends:INFO:派送中 2019-07-25 16:48 快件交给李永杰，正在派送途中（联系电话：18383915871）
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 16:27 快件到达 【苏州工业园东环路营业点】
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 15:42 快件已发车
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 14:56 快件在【苏州吴中集散中心】已装车,准备发往下一站
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 13:58 快件到达 【苏州吴中集散中心】
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 07:26 快件已发车
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 04:52 快件在【连云港海州集散中心】已装车,准备发往下一站
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-25 04:27 快件到达 【连云港海州集散中心】
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-24 22:49 快件已发车
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-24 22:15 快件在【滨州天工集散点】已装车,准备发往下一站
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-24 20:46 快件到达 【滨州天工集散点】
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-24 19:13 快件已发车
+16-01-2019 10:01:02 15Scends:INFO:运送中 2019-07-24 19:09 快件在【东营市河口区河庆路营业点】已装车,准备发往下一站
+16-01-2019 10:01:02 15Scends:INFO:已取件 2019-07-24 15:23 顺丰速运 已收取快件
+16-01-2019 10:01:02 15Scends:INFO:正在拼接物流节点截图
+16-01-2019 10:01:03 15Scends:INFO:正在获取电子存根信息和截图
+16-01-2019 10:01:03 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-01-2019 10:01:03 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-01-2019 10:01:04 15Scends:INFO:当前进度：10/13 ，正在查询的单号为 [365550496421]
+16-01-2019 10:01:04 15Scends:INFO:单号 [365550496421] 所属快递公司为 [shunfeng]
+16-01-2019 10:01:06 15Scends:INFO:正在输入单号进行查询
+16-01-2019 10:01:11 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-01-2019 10:01:12 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-01-2019 10:01:25 15Scends:INFO:verify_ok = True
+16-01-2019 10:01:26 15Scends:INFO:获取物流节点信息和截图
+16-01-2019 10:01:29 15Scends:INFO:已签收 2019-07-18 18:54 已签收,感谢使用顺丰,期待再次为您服务
+16-01-2019 10:01:29 15Scends:INFO:派送中 2019-07-18 15:49 快件交给刘洪国，正在派送途中（联系电话：18690270984）
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-18 15:20 快件到达 【新疆阿克苏地区红桥速运营业点】
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-18 15:00 快件已发车
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-18 14:48 快件在【阿克苏集散点】已装车,准备发往下一站
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-18 12:54 快件到达 【阿克苏集散点】
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-17 16:13 快件已发车
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-17 10:58 快件在【乌鲁木齐总集散中心】已装车,准备发往下一站
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-17 10:32 快件到达 【乌鲁木齐总集散中心】
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-15 05:26 快件已发车
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-15 02:56 快件在【潍坊坊子新区集散中心】已装车,准备发往下一站
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-15 01:14 快件到达 【潍坊坊子新区集散中心】
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-14 22:49 快件已发车
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-14 22:49 快件在【烟台莱阳集散中心】已装车,准备发往下一站
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-14 21:11 快件到达 【烟台莱阳集散中心】
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-14 19:31 快件已发车
+16-01-2019 10:01:29 15Scends:INFO:运送中 2019-07-14 19:30 快件在【烟台莱州城港南路营业点】已装车,准备发往下一站
+16-01-2019 10:01:29 15Scends:INFO:已取件 2019-07-14 18:35 顺丰速运 已收取快件
+16-01-2019 10:01:29 15Scends:INFO:正在拼接物流节点截图
+16-01-2019 10:01:30 15Scends:INFO:正在获取电子存根信息和截图
+16-01-2019 10:01:30 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-01-2019 10:01:30 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-01-2019 10:01:32 15Scends:INFO:当前进度：11/13 ，正在查询的单号为 [349342485986]
+16-01-2019 10:01:32 15Scends:INFO:单号 [349342485986] 所属快递公司为 [shunfeng]
+16-01-2019 10:01:33 15Scends:INFO:正在输入单号进行查询
+16-01-2019 10:01:36 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-01-2019 10:01:38 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-01-2019 10:01:50 15Scends:INFO:verify_ok = True
+16-01-2019 10:01:51 15Scends:INFO:获取物流节点信息和截图
+16-01-2019 10:01:55 15Scends:INFO:已签收 2019-07-15 11:20 已签收,感谢使用顺丰,期待再次为您服务
+16-01-2019 10:01:55 15Scends:INFO:派送中 2019-07-15 11:18 快件交给尤川，正在派送途中（联系电话：13312638018）
+16-01-2019 10:01:55 15Scends:INFO:派送中 2019-07-15 11:17 正在派送途中,请您准备签收(派件人:尤川,电话:13312638018)
+16-01-2019 10:01:55 15Scends:INFO:派送中 2019-07-15 10:44 收方客户要求自取快件,待自取
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-15 10:43 收方客户要求自取快件,待自取
+16-01-2019 10:01:55 15Scends:INFO:派送中 2019-07-15 07:53 快件交给尤川，正在派送途中（联系电话：13312638018）
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-15 07:12 快件到达 【曲靖麒麟瑞和新城营业点】
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-15 06:47 快件已发车
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-15 05:09 快件在【曲靖麒麟集散点】已装车,准备发往下一站
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 23:27 快件到达 【曲靖麒麟集散点】
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 19:57 快件已发车
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 19:56 快件在【昆明官渡集散中心】已装车,准备发往下一站
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 19:00 快件到达 【昆明官渡集散中心】
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 17:54 快件已发车
+16-01-2019 10:01:55 15Scends:INFO:运送中 2019-07-14 17:20 快件在【昆明盘龙新迎小区营业点】已装车,准备发往下一站
+16-01-2019 10:01:55 15Scends:INFO:已取件 2019-07-14 14:40 顺丰速运 已收取快件
+16-01-2019 10:01:56 15Scends:INFO:正在拼接物流节点截图
+16-01-2019 10:01:56 15Scends:INFO:正在获取电子存根信息和截图
+16-01-2019 10:01:56 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-01-2019 10:01:56 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-01-2019 10:01:58 15Scends:INFO:当前进度：12/13 ，正在查询的单号为 [349247356730]
+16-01-2019 10:01:58 15Scends:INFO:单号 [349247356730] 所属快递公司为 [shunfeng]
+16-02-2019 10:02:00 15Scends:INFO:正在输入单号进行查询
+16-02-2019 10:02:04 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-02-2019 10:02:07 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-02-2019 10:02:19 15Scends:INFO:verify_ok = True
+16-02-2019 10:02:20 15Scends:INFO:获取物流节点信息和截图
+16-02-2019 10:02:23 15Scends:INFO:已签收 2019-07-15 10:47 已签收,感谢使用顺丰,期待再次为您服务
+16-02-2019 10:02:23 15Scends:INFO:派送中 2019-07-15 09:42 快件交给杨建军，正在派送途中（联系电话：18199175636）
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 09:04 快件到达 【新疆乌市成功速运营业点】
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 07:51 快件已发车
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 07:05 快件在【乌鲁木齐集散中心】已装车,准备发往下一站
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 01:05 快件到达 【乌鲁木齐集散中心】
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 00:25 快件已发车
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-15 00:22 快件在【乌鲁木齐总集散中心】已装车,准备发往下一站
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-14 23:29 快件到达 【乌鲁木齐总集散中心】
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-14 04:28 快件在【广州总集散中心】已装车,准备发往下一站
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-14 02:35 快件到达 【广州总集散中心】
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-14 01:31 快件已发车
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-14 01:31 快件在【广州新塘集散中心】已装车,准备发往下一站
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-13 23:06 快件到达 【广州新塘集散中心】
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-13 21:53 快件已发车
+16-02-2019 10:02:23 15Scends:INFO:运送中 2019-07-13 20:50 快件在【广州天河龙洞北路营业部】已装车,准备发往下一站
+16-02-2019 10:02:23 15Scends:INFO:已取件 2019-07-13 19:13 顺丰速运 已收取快件
+16-02-2019 10:02:24 15Scends:INFO:正在拼接物流节点截图
+16-02-2019 10:02:24 15Scends:INFO:正在获取电子存根信息和截图
+16-02-2019 10:02:24 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-02-2019 10:02:24 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+16-02-2019 10:02:25 15Scends:INFO:当前进度：13/13 ，正在查询的单号为 [306306249896]
+16-02-2019 10:02:25 15Scends:INFO:单号 [306306249896] 所属快递公司为 [shunfeng]
+16-02-2019 10:02:26 15Scends:INFO:正在输入单号进行查询
+16-02-2019 10:02:32 15Scends:INFO:第 1 次尝试解析滑动验证码
+16-02-2019 10:02:34 15Scends:INFO:解析成功，正在模拟滑动验证码···
+16-02-2019 10:02:46 15Scends:INFO:verify_ok = True
+16-02-2019 10:02:48 15Scends:INFO:获取物流节点信息和截图
+16-02-2019 10:02:50 15Scends:INFO:已签收 2019-07-15 09:38 已签收,感谢使用顺丰,期待再次为您服务
+16-02-2019 10:02:50 15Scends:INFO:派送中 2019-07-15 07:21 快件交给石志强，正在派送途中（联系电话：15089248716）
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-15 06:51 快件到达 【惠州市惠城区惠台速运营业点】
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-15 06:28 快件已发车
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-15 02:54 快件在【惠州陈江集散中心】已装车,准备发往下一站
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-14 16:01 快件到达 【惠州陈江集散中心】
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-14 14:05 快件已发车
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-14 13:49 快件在【深圳集散中心】已装车,准备发往下一站
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-14 12:46 快件到达 【深圳集散中心】
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-14 00:06 快件已发车
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-13 21:20 快件在【长沙星沙集散中心】已装车,准备发往下一站
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-13 21:13 快件到达 【长沙星沙集散中心】
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-13 19:33 快件已发车
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-13 17:12 快件在【株洲醴陵渌江大道营业点】已装车,准备发往下一站
+16-02-2019 10:02:50 15Scends:INFO:已取件 2019-07-13 13:07 顺丰速运 已收取快件
+16-02-2019 10:02:50 15Scends:INFO:运送中 2019-07-13 11:28 顺丰合作点【白兔潭镇日喜便利店】已代收
+16-02-2019 10:02:51 15Scends:INFO:正在拼接物流节点截图
+16-02-2019 10:02:51 15Scends:INFO:正在获取电子存根信息和截图
+16-02-2019 10:02:51 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+16-02-2019 10:02:51 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "d:/python_wwcheng/sf_express_v2/Express_Tracking.py", line 419, in next_bill_number
+    '//button[@class="close"]').click()
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+

@@ -117,13 +117,14 @@ class Express_Tracking(object):
         tb.field_names = ['名称', '快递批量查询截图工具2.0']
         tb.add_row(['作者', '王文铖'])
         tb.add_row(['微信公众号', '15Seconds'])
-        tb.add_row(['', '关注公众号，获取更多实用工具！'])
         tb.add_row(['', ''])
-        tb.add_row(['', '安装Driver中对应的Firefox浏览器'])
-        tb.add_row(['使用方法', '然后在Input文件中填入顺丰单号'])
-        tb.add_row(['', '以上两步完成后，开始运行程序'])
+        tb.add_row(['', '关注微信公众号'])
+        tb.add_row(['使用方法', '可查看工具详细使用方法'])
+        tb.add_row(['', '还能获取更多实用工具'])
+        tb.add_row(['', ''])
         tb.add_row(['GitHub项目地址', 'https://github.com/nigo81/tools-for-auditor'])
         print(tb)
+        print('\n')
 
     def __ceart_enviroment(self):
         # 创建本次输出的文件环境
@@ -140,7 +141,8 @@ class Express_Tracking(object):
     @debug
     def __open_browser(self):
         # 打开浏览器
-        self.browser.set_window_size(1366,760)
+        # self.browser.set_window_size(1366,760)
+        self.browser.set_window_size(2560,1440)
         self.browser.get(self.sf_Express_url)
         self.__wait()
         js2='window.open("{}");'.format(self.kuaidi100_url)
@@ -150,12 +152,12 @@ class Express_Tracking(object):
         self.sf_tab=all_handles[0]
         self.kd100_tab=all_handles[1]
         self.browser.switch_to_window(self.kd100_tab)
-        js1=r"""
-        var size = {}; 
-        document.body.style.zoom = size;
-        document.body.style.cssText += '; -moz-transform: scale(' + size + ');-moz-transform-origin: 0 0; ';  
-        """.format(str(self.html_size))
-        self.browser.execute_script(js1)
+        # js1=r"""
+        # var size = {}; 
+        # document.body.style.zoom = size;
+        # document.body.style.cssText += '; -moz-transform: scale(' + size + ');-moz-transform-origin: 0 0; ';  
+        # """.format(str(self.html_size))
+        # self.browser.execute_script(js1)
         self.browser.switch_to_window(self.sf_tab)
 
     def __scan_login(self):
@@ -313,6 +315,7 @@ class Express_Tracking(object):
         self.browser.save_screenshot(self.screenshot_img_temp.replace('.png',pic_n))
         return Image.open(self.screenshot_img_temp.replace('.png',pic_n))
 
+    @debug
     def get_route_info(self):
         # 获取物流节点信息和截图
         self.route = ''
@@ -320,24 +323,26 @@ class Express_Tracking(object):
         self.screenshot_img1 = self.mypath[1] + r'\%s-WLJD-%s.png' % (self.num, self.bill_number)
         self.screenshot_img_temp = self.mypath[4] + r'\%s-WLJD-%s.png' % (self.num, self.bill_number)
         try:
-            target = self.browser.find_element_by_xpath('//input[@type="checkbox"]')
-            target.click()
+            delivery_map=self.browser.find_element_by_xpath('//div[@class="delivery"]/div[1]').get_attribute('class')
+            target=self.browser.find_element_by_xpath('//input[@type="checkbox"]')
+            if delivery_map!='delivery-item send-out-item brief-model':
+                target.click()
+            self.__wait()
             self.browser.execute_script("arguments[0].scrollIntoView();", target)
             self.__wait()
-
             routes = self.browser.find_elements_by_xpath('//div[@class="route-list"]/ul')
             for rou in routes:
                 r = rou.text.replace('\n', ' ')
                 self.logger.info(r)
                 self.route = self.route+'\n'+ r
             if 0< len(routes) <=6:
-                self.__get_route_pic(0,'.png')
+                newpic=self.__get_route_pic(0,'.png')
             elif 6 < len(routes)<=12:
                 im1=self.__get_route_pic(0,'_1.png')
                 im2=self.__get_route_pic(300,'_2.png')
                 self.logger.info('正在拼接物流节点截图')
                 x,y=im1.size[0],im1.size[1]
-                sb,xb=230,120 #上边距,下边距
+                sb,xb=255,790 #上边距,下边距
                 y1=im1.size[1]-sb-xb
                 im1 = im1.crop((0, 0, x, y-xb))
                 im2 = im2.crop((0, sb, x, y-xb))
@@ -345,14 +350,13 @@ class Express_Tracking(object):
                 newpic.paste(im1, (0, 0, x, y-xb))
                 newpic.paste(im2, (0, y-xb, x, y-xb+y1))
                 newpic.save(self.screenshot_img1)
-
             elif len(routes)>12:
                 im1=self.__get_route_pic(0,'_1.png')
                 im2=self.__get_route_pic(300,'_2.png')
                 im3=self.__get_route_pic(600,'_3.png')  
                 self.logger.info('正在拼接物流节点截图')
                 x,y=im1.size[0],im1.size[1]
-                sb,xb=230,120 #上边距,下边距
+                sb,xb=255,790 #上边距,下边距
                 y1=im1.size[1]-sb-xb
                 im1 = im1.crop((0, 0, x, y-xb))
                 im2 = im2.crop((0, sb, x, y-xb))
@@ -362,8 +366,9 @@ class Express_Tracking(object):
                 newpic.paste(im2, (0, y-xb, x, y-xb+y1))
                 newpic.paste(im3, (0, y-xb+y1, x, y-xb+y1+y1))
                 newpic.save(self.screenshot_img1)
-                
-            target.click()
+            newpic = newpic.crop((790, 90, newpic.size[0]-790, newpic.size[1]))
+            newpic.save(self.screenshot_img1)
+
         except Exception:
             self.logger.info('没有查询到相关物流信息')
 
@@ -384,7 +389,9 @@ class Express_Tracking(object):
                 "arguments[0].scrollIntoView();", target)
             self.__wait()
             self.browser.save_screenshot(self.screenshot_img2)
-
+            newpic=Image.open(self.screenshot_img2)
+            newpic = newpic.crop((980, 460, newpic.size[0]-995, newpic.size[1]-525))
+            newpic.save(self.screenshot_img2)
             target = self.browser.find_element_by_xpath(
                 '//a[@aria-controls="electronicStub"]')
             target.click()
@@ -392,6 +399,9 @@ class Express_Tracking(object):
                 "arguments[0].scrollIntoView();", target)
             self.__wait()
             self.browser.save_screenshot(self.screenshot_img3)
+            newpic=Image.open(self.screenshot_img3)
+            newpic = newpic.crop((980, 190, newpic.size[0]-990, newpic.size[1]-520))
+            newpic.save(self.screenshot_img3)
             dzcgs = self.browser.find_elements_by_xpath(
                 '//table[@class="borderrb"]/tbody/tr')
             for dz in dzcgs:
@@ -475,10 +485,7 @@ class Express_Tracking(object):
             self.browser.save_screenshot(self.screenshot_img4)
             self.__wait()
             im = Image.open(self.screenshot_img4)
-            x=im.size[0]
-            y=im.size[1]
-            s=self.html_size
-            im1 = im.crop((x*0.18*s, 0, x*0.8*s, y))
+            im1 = im.crop((800, 0, im.size[0]-800, im.size[1]-100))
             im1.save(self.screenshot_img4)
             self.logger.info('物流节点截图已保存') 
         else:
@@ -537,15 +544,21 @@ class Express_Tracking(object):
 class Input_and_Output(object):
 
     def load_input(self):
-        input_path=os.path.abspath(os.curdir)+r'\Input\bill_number.xlsx'
-        df = pd.read_excel(input_path)
-        df_li = df.values.tolist()
-        bill_number_list=[str(d[1]).replace(' ','') for d in df_li]
-        if len(bill_number_list) > 0:
-            pass
-        else:
-            print('bill_number.xlsx 中未发现快递单号')
-        return bill_number_list
+        try:
+            input_path=os.path.abspath(os.curdir)+r'\Input\bill_number.xlsx'
+            df = pd.read_excel(input_path).dropna()
+            df1=df["快递单号"]
+            bill_number_list=df1.tolist()
+            try:
+                if df1.dtype!='object':
+                    bill_number_list=[str(int(float(d))) for d in df1.tolist()]
+            except:
+                pass
+            if len(bill_number_list) == 0:
+                print('bill_number.xlsx 中未发现快递单号')      
+            return bill_number_list
+        except:
+            print('快递单号读取错误，检查是否存在 bill_number.xlsx 工作簿') 
         
     def output_csv(self, output_path='',data=[]):
         '''输出文件'''
@@ -574,13 +587,16 @@ def main():
         for bill_number in bill_number_list:
             data = track.main(bill_number)
             io.output_csv(mypath[2],data)
-        del track
         io.csv_to_xlsx()
+        if count/50==0:
+            track.logger.info('每查询50个，休息2分钟')
+            time.sleep(120)
     else:
         pass
     stamp = time.time() - start
     mon=round(stamp/60)
-    print('6666-66-66 66:66:66,666 15Scends INFO 所有快递单号查询结束，总用时约 {} 分钟'.format(mon))
+    track.logger.info('所有快递单号查询结束，总用时约 {} 分钟'.format(mon))
+    del track
 
 if __name__ == "__main__":
     main()
