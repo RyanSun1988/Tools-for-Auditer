@@ -123,6 +123,8 @@ class Express_Tracking(object):
         tb.add_row(['', '还能获取更多实用工具'])
         tb.add_row(['', ''])
         tb.add_row(['GitHub项目地址', 'https://github.com/nigo81/tools-for-auditor'])
+        tb.add_row(['', ''])
+        tb.add_row(['更新时间', '2019-08-24'])
         print(tb)
         print('\n')
 
@@ -547,17 +549,12 @@ class Input_and_Output(object):
         try:
             input_path=os.path.abspath(os.curdir)+r'\Input\bill_number.xlsx'
             df = pd.read_excel(input_path).dropna()
-            df1=df["快递单号"]
-            bill_number_list=df1.tolist()
-            try:
-                if df1.dtype!='object':
-                    bill_number_list=[str(int(float(d))) for d in df1.tolist()]
-            except:
-                pass
+            df1=df["2"]
+            bill_number_list=df1.tolist()[1:]
             if len(bill_number_list) == 0:
                 print('bill_number.xlsx 中未发现快递单号')      
             return bill_number_list
-        except:
+        except Exception as e:
             print('快递单号读取错误，检查是否存在 bill_number.xlsx 工作簿') 
         
     def output_csv(self, output_path='',data=[]):
@@ -600,3 +597,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # io=Input_and_Output() # 实例1
+    # bill_number_list=io.load_input()
+    # print(bill_number_list)
