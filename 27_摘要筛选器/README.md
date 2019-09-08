@@ -13,13 +13,13 @@
 
 ### 粘贴序时账
 
-![UTOOLS1567688508949.png](http://yanxuan.nosdn.127.net/9bb8260c2cbe1c7c0d8119dc728b2c63.png)
+![nGbhPe.png](https://s2.ax1x.com/2019/09/08/nGbhPe.png)
 
 将你需要进行筛选操作的序时账粘贴到“序时账”表中。
 
 ### 填写参数
 
-![UTOOLS1567688587437.png](http://yanxuan.nosdn.127.net/a5537c985b7f22045590e42b49d14695.png)
+![nGbOIS.png](https://s2.ax1x.com/2019/09/08/nGbOIS.png)
 
 在"控制表”中填写关键词，可以填写多个，顺序下排就行。能够将包含这些关键字的序时账全部筛选出来。
 
@@ -29,7 +29,7 @@
 
 ### 结果
 
-![UTOOLS1567688794970.png](http://yanxuan.nosdn.127.net/d8a9d6299ce8f70fb3444b352e64fa23.png)
+![nGbzxs.png](https://s2.ax1x.com/2019/09/08/nGbzxs.png)
 
 在“结果表”里将会将包含关键字的所有序时账提取出来。
 
