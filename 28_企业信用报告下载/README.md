@@ -1,11 +1,4 @@
 
-https://www.tianyancha.com/search?key=xiaomi
-
-https://www.tianyancha.com/
-路径中不能有中文
-
-一次查询20个以内最好
-
 ## 企业信用报告（图片版）批量下载
 
 作者 / 王文铖
